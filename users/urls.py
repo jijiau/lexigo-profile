@@ -12,7 +12,7 @@ urlpatterns = [
     path('view_profile/', view_profile_view, name = 'view_profile'),
     path('edit_profile/', edit_profile_view, name = 'edit_profile'),
     path('learn_read/', learn_read_view, name = 'learn_read'),
-    path('learn_liste/', learn_listen_view, name = 'learn_listen'),
+    path('learn_listen/', learn_listen_view, name = 'learn_listen'),
     path('index/', index_view, name='index'),
     path('delete_account/', delete_account, name='delete_account'),
 ]   

@@ -111,6 +111,9 @@ def view_profile_view(request):
 def learn_read_view(request):
     return render(request, 'learn_read.html')
 
+def continueQuiz():
+    return redirect('home.html')
+
 def learn_listen_view(request):
     return render(request, 'learn_listen.html')
 
